@@ -19,6 +19,8 @@ alias betty="~/betty/main.rb"
 alias chrome="/Applications/Google\ Chrome.app"
 
 alias xphp="/Applications/XAMPP/xamppfiles/bin/php"
+
+alias largestFiles="find / -type f -exec du -Sh {} + | sort -rh | head -n 15"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
