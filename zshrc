@@ -22,6 +22,7 @@ alias xphp="/Applications/XAMPP/xamppfiles/bin/php"
 
 alias largestFiles="find / -type f -exec du -Sh {} + | sort -rh | head -n 15"
 alias whoDunnit="getent passwd | cut -d : -f 6 | sed 's:$:/.bash_history:' | xargs -d '\n' grep \"git pull\" -B 1 | sed 'N;s/\n/ /' | sort"
+alias grepForTwo="find . -type f -exec grep -q 'term 1' {} \; -exec grep -l 'term 2' {} +"
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
