@@ -1,0 +1,22 @@
+{
+	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+	"draw_indent_guides": false,
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Input Mono",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Phpcs"
+	],
+	"line_padding_bottom": 6,
+	"rulers":
+	[
+		80,
+		120
+	],
+	"show_full_path": true,
+	"spell_check": true,
+	"tab_size": 4,
+	"theme": "Cobalt2.sublime-theme",
+	"translate_tabs_to_spaces": true
+}

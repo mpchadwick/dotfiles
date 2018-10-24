@@ -1,0 +1,5 @@
+[
+    { "keys": ["alt+shift+c"], "command": "rebuild_tags" },
+    { "keys": ["alt+shift+v"], "command": "navigate_to_definition"},
+    { "keys": ["super+k", "super+m"], "command": "toggle_minimap"}
+]
